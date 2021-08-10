@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi primer titulo html</title>
+    </head>
+    <body>
+
+        <header>
+            <div id="logotipo">Logotipo</div>
+        </header>
+        <a href="index.html">Ir a pagina de blog html</a>
+        <hr>
+        <!--esto es un comentario, no aparece en la pagina-->
+        <h1>Primer titulo</h1>
+        <div class="noticias">Noticia1</div>
+        <div class="noticias">Noticia2</div>
+        <div class="noticias">Noticia3</div>
+
+        
+        <p>
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit,<em>Esta parte es destacada y en italica</em> amet consectetur adipisicing elit. Iure, officia!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, <strong>Este texto es destacado y en negrita </strong>consectetur adipisicing elit. Autem quibusdam fuga atque magnam doloremque culpa reiciendis, fugit quod, labore dolorum id voluptas impedit? Iste quisquam consequuntur quibusdam reiciendis pariatur eligendi!
+        </p>
+        <p>
+            <a href="http://www.amazon.com" target="_blank">link a amazon en otra pestaña</a> 
+        </p>
+        
+        <audio  autoplay controls loop preload="auto">
+            <source src="audio/1-16 Brohemian Rhapsody.mp3" type="audio/mp3">
+
+        </audio>
+        <br>
+        <hr>
+        <video autoplay controls loop preload="auto" width="1000">
+            
+            <source src="videos/CrasjAvion.mov">
+
+        </video>
+
+        <br>
+        <hr>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-9Hso1xU6aQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!--Listas -->
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+            <li>item6</li>
+        
+        </ul>
+        <ol>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+            <li>item6</li>
+        </ol>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Numero telefónico</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Joshua</td>
+                    <td>Galindo</td>
+                    <td>9358345035</td>
+                </tr>
+                <tr>
+                    <td>Val</td>
+                    <td>Martinez</td>
+                    <td>93583434545035</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Desconocido</td>
+                    <td>9335</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <aside>
+            <h1>RESULTADOS ELECCIONES DE HONDURAS</h1>
+            <p>Joshua Galindo: <meter value="67" min="0" max="100" high="50" low="15" ></meter></p>
+            <p>Felix Miguelete: <meter value="12" min="0" max="100" high="50" low="15"></meter></p>
+            <p>Oliver Silvestre; <meter value="1000" min="0" max="100" high="50" low="15"></meter></p>
+            <p>Aiko Abigail: <meter value="43" min="0" max="100" high="50" low="15"></meter></p>
+        </aside>
+        <hr>
+        <center>
+        <h2>FORMULARIO</h2>
+        <form style="text-align: center;" action="process.php" method="POST">
+            <div>
+                <label>Primer nombre</label>
+                <input type="text" name="primerNombre" placeholder="Ingrese su primer nombre: ">
+            </div>            
+            <br>
+            <div>
+                <label>Apellido</label>
+                <input type="text" name="apellido">
+            </div>
+            <br>
+            <div>
+                <label>Correo Electronico</label>
+                <input type="email" name="correo">
+            </div>    
+            <div>
+                <label>Mensaje Largo</label>
+                <textarea name="mensaje"></textarea>
+            </div>
+            <div>
+                <label>Genero</label>
+                <select name="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>                  
+            </div> 
+            <br>
+            <div>
+                <label>Edad:</label>
+                <input type="number" name="edad" value="30">
+            </div>
+            <br>
+            <div>
+                <label>Cumpleaños:</label>
+                <input type="date" name="cumpleaños">
+            </div>
+            <br>
+            <input type="submit" name="submit" value="submit">
+        </form>
+        
+        <br>
+        <button>Presionar</button>
+        <br>
+        <a href="imagenes/patsInDallas.jpeg">
+            <img src="imagenes/patsInDallas.jpeg" alt="Imagen no pudo encontrarse"> 
+        </a>    
+        <div div style="margin-top:500px"></div>
+        <blockquote cite= “http://duckduckgo.com”>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere vel vero nam, aliquam, numquam voluptas natus ut consequatur aliquid officia debitis est quas beatae porro maxime! Iusto illo maiores nihil.
+        
+        </blockquote>
+
+        <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+        <p><cite>HTML crash course</cite> por zurdo</p>
+        <footer>Derechos reservados por zurdito &copy;</footer>
+    </body>
+</html>    
